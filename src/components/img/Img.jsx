@@ -3,8 +3,10 @@ const Img = () => {
     <div>
       <div>image testing</div>
       <div>
-        <img src="/public/img/banner.jpg" alt="testing..." width="100%" />
+        <img src="/img/banner.jpg" alt="testing..." width="100%" />
       </div>
+
+      {/* /public/img/banner.jpg, use /img/banner.jpg. */}
     </div>
   );
 };
