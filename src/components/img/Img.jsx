@@ -3,7 +3,7 @@ const Img = () => {
     <div>
       <div>image testing</div>
       <div>
-        <img src="public/img/banner.jpg" alt="testing..." width="100%" />
+        <img src="/public/img/banner.jpg" alt="testing..." width="100%" />
       </div>
     </div>
   );
