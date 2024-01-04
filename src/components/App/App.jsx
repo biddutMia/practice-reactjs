@@ -1,4 +1,5 @@
 import { Box } from "@mui/material";
+import Img from "../img/Img";
 
 const App = () => {
   return (
@@ -17,8 +18,8 @@ const App = () => {
         soluta illo quibusdam ratione corrupti nulla nesciunt. Iure saepe odit
         nulla repellat soluta ullam?
       </div>
-      <Box sx={{ position: "relative" }}>
-        <Box sx={{ background: "blue" }}>
+      <Box>
+        <Box>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
           deleniti distinctio dicta, quod nobis sed repudiandae dolorum commodi
           voluptates suscipit eos vel cum vero illo. Molestiae fugit explicabo
@@ -26,7 +27,7 @@ const App = () => {
           aspernatur recusandae sint debitis impedit itaque, vitae veniam, eaque
           accusamus ratione reiciendis voluptate.
         </Box>
-        <Box sx={{ background: "red", position: "absolute", top: "10px" }}>
+        <Box>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
           deleniti distinctio dicta, quod nobis sed repudiandae dolorum commodi
           voluptates suscipit eos vel cum vero illo. Molestiae fugit explicabo
@@ -35,6 +36,7 @@ const App = () => {
           accusamus ratione reiciendis voluptate.
         </Box>
       </Box>
+      <Img />
     </div>
   );
 };
